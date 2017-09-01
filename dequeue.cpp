@@ -3,9 +3,7 @@
 
 int main()
 {
-  std::cout << "Aye" << std::endl;
-  std::cout << "Lets try to make a Bounded_Dequeue" << std::endl;
-  Bounded_Dequeue <std::string> a("hay");
-  a.push_front("jak");
+  Bounded_Dequeue <int> a(5);
+  a.push_front(12);
   return 0;
 }
